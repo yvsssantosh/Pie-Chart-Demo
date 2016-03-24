@@ -14,16 +14,25 @@
 
 @implementation ViewController
 
+@synthesize piechartview;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    NSMutableArray *array=[[NSMutableArray alloc]init];
+    for(int i=0;i<10;i++)
+    {
+        NSNumber *num=[NSNumber numberWithInt:rand()%60+20];
+        
+        [array addObject:num];
+    }
+    [self.piechartview renderInLayer:self.piechartview dataArray:array];
+	}
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

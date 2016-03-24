@@ -20,6 +20,8 @@
 		CE9A222319C75992001EA4C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9A220419C75991001EA4C6 /* Foundation.framework */; };
 		CE9A222B19C75992001EA4C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9A222919C75992001EA4C6 /* InfoPlist.strings */; };
 		CE9A222E19C75992001EA4C6 /* pieChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A222D19C75992001EA4C6 /* pieChartDemoTests.m */; };
+		CE9A223A19C75ADB001EA4C6 /* DLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A223919C75ADB001EA4C6 /* DLPieChart.m */; };
+		CE9A223C19C76033001EA4C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9A223B19C76033001EA4C6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		CE9A220219C75991001EA4C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE9A220419C75991001EA4C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE9A220619C75991001EA4C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE9A220A19C75991001EA4C6 /* pieChartDemo-Info.plist */ = {isa = PBXFileReference; path = "pieChartDemo-Info.plist"; sourceTree = "<group>"; };
+		CE9A220A19C75991001EA4C6 /* pieChartDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pieChartDemo-Info.plist"; sourceTree = "<group>"; };
 		CE9A220C19C75991001EA4C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE9A220E19C75991001EA4C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE9A221019C75991001EA4C6 /* pieChartDemo-Prefix.pch */ = {isa = PBXFileReference; path = "pieChartDemo-Prefix.pch"; sourceTree = "<group>"; };
-		CE9A221119C75991001EA4C6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE9A221019C75991001EA4C6 /* pieChartDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pieChartDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CE9A221119C75991001EA4C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE9A221219C75991001EA4C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE9A221519C75991001EA4C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CE9A221719C75991001EA4C6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE9A221719C75991001EA4C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE9A221819C75991001EA4C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE9A221F19C75991001EA4C6 /* pieChartDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pieChartDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9A222019C75992001EA4C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CE9A222819C75992001EA4C6 /* pieChartDemoTests-Info.plist */ = {isa = PBXFileReference; path = "pieChartDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CE9A222819C75992001EA4C6 /* pieChartDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pieChartDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CE9A222A19C75992001EA4C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE9A222C19C75992001EA4C6 /* pieChartDemoTests.h */ = {isa = PBXFileReference; path = pieChartDemoTests.h; sourceTree = "<group>"; };
+		CE9A222C19C75992001EA4C6 /* pieChartDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pieChartDemoTests.h; sourceTree = "<group>"; };
 		CE9A222D19C75992001EA4C6 /* pieChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pieChartDemoTests.m; sourceTree = "<group>"; };
+		CE9A223819C75ADB001EA4C6 /* DLPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPieChart.h; sourceTree = "<group>"; };
+		CE9A223919C75ADB001EA4C6 /* DLPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPieChart.m; sourceTree = "<group>"; };
+		CE9A223B19C76033001EA4C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9A223C19C76033001EA4C6 /* QuartzCore.framework in Frameworks */,
 				CE9A220319C75991001EA4C6 /* UIKit.framework in Frameworks */,
 				CE9A220519C75991001EA4C6 /* Foundation.framework in Frameworks */,
 				CE9A220719C75991001EA4C6 /* CoreGraphics.framework in Frameworks */,
@@ -81,7 +87,8 @@
 		CE9A21F319C75990001EA4C6 = {
 			isa = PBXGroup;
 			children = (
-				CE9A220819C75991001EA4C6 /* pieChartDemo */,
+				CE9A223B19C76033001EA4C6 /* QuartzCore.framework */,
+				CE9A223719C75ADB001EA4C6 /* Pie Chart Library */,
 				CE9A222619C75992001EA4C6 /* pieChartDemoTests */,
 				CE9A220119C75991001EA4C6 /* Frameworks */,
 				CE9A21FF19C75990001EA4C6 /* Products */,
@@ -118,7 +125,8 @@
 				CE9A221819C75991001EA4C6 /* ViewController.m */,
 				CE9A220919C75991001EA4C6 /* Supporting Files */,
 			);
-			path = pieChartDemo;
+			name = pieChartDemo;
+			path = ../pieChartDemo;
 			sourceTree = "<group>";
 		};
 		CE9A220919C75991001EA4C6 /* Supporting Files */ = {
@@ -149,6 +157,16 @@
 				CE9A222919C75992001EA4C6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE9A223719C75ADB001EA4C6 /* Pie Chart Library */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A220819C75991001EA4C6 /* pieChartDemo */,
+				CE9A223819C75ADB001EA4C6 /* DLPieChart.h */,
+				CE9A223919C75ADB001EA4C6 /* DLPieChart.m */,
+			);
+			path = "Pie Chart Library";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +278,7 @@
 				CE9A220F19C75991001EA4C6 /* main.m in Sources */,
 				CE9A221319C75991001EA4C6 /* AppDelegate.m in Sources */,
 				CE9A221919C75991001EA4C6 /* ViewController.m in Sources */,
+				CE9A223A19C75ADB001EA4C6 /* DLPieChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
